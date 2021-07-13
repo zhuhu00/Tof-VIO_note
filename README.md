@@ -3,8 +3,11 @@
 主要记录了使用ros的数据流以及调用的流程，通过rqt图可以大部分知道VIO是通过ESKF的方法，对IMU的数据进行的更新和记录。通过这种方式，能够将camera和imu的数据进行融合，但是目前还没有对融合的部分进行记录，这是下一步的工作，有机会再来看吧。
 
 - main函数的node使用launch文件进行调用，通过回调函数对相互传递的参数进行处理数据。
-
 - [ ] 对相机和IMU数据融合的部分进行查看
+
+rqt_graph:
+
+![rosgraph](https://raw.githubusercontent.com/zhuhu00/img/master/rosgraph.png)
 
 ToF Camera Visual Initial Odometry
 ### Video:
