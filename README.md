@@ -4,6 +4,7 @@
 
 - main函数的node使用launch文件进行调用，通过回调函数对相互传递的参数进行处理数据。
 - [ ] 对相机和IMU数据融合的部分进行查看
+- [ ] 这部分可能和MSCKF类似，在学完VINS后对MSCKF进行学习
 
 rqt_graph:
 
